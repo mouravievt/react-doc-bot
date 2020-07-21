@@ -1,9 +1,5 @@
-.doc-bot-app {
+.doc-bot-app-fluid {
   display: flex;
   flex-direction: column;
-}
-
-.btn-primary {
-  height: 40px;
-  width: 80px;
+  height: 100vh;
 }

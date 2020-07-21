@@ -3,7 +3,7 @@ import './Containers.css';
 
 const header = () => {
     return (
-        <div className='doc-bot-header'>
+        <div>
             Header
         </div>
     )
