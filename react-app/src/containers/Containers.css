@@ -1,0 +1,20 @@
+.doc-bot-header{
+    flex: 20;
+    border: 4px black;
+    padding: 10px;
+    background-color: yellow;
+}
+
+.doc-bot-footer{
+    border: 1px black;
+    flex: 10;
+    padding: 10px;
+    background-color: beige;
+}
+
+.doc-bot-body{
+    border: 1px black;
+    flex: 70;
+    padding: 10px;
+    background-color: aqua;
+}

@@ -1,19 +1,17 @@
-import React, {useState} from 'react';
+import React  from 'react';
+import Header from "./containers/Header";
+import Footer from "./containers/Footer";
+import Body from "./containers/Body";
+import Button from 'react-bootstrap/Button';
 import './App.css';
 
 const app = () => {
-    // eslint-disable-next-line react-hooks/rules-of-hooks
-    const [someNumber, setNumber] = useState(33);
-
-    const eventHandler = () => {
-        setNumber(someNumber + 1);
-    }
-
     return(
-        <div>
-            <h1>Welcome to DocBot</h1>
-            <div>The number is: {someNumber}</div>
-            <button onClick={eventHandler}>Increment</button>
+        <div className='doc-bot-app'>
+            <Header/>
+            <Body/>
+            <Footer/>
+            <Button variant="primary">Primary</Button>
         </div>
     );
 }
