@@ -18,7 +18,20 @@
             integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
             crossorigin="anonymous"
     />
-    <title>React App</title>
+    <script>
+      window.watsonAssistantChatOptions = {
+        integrationID: "2fbf2cd6-f993-4783-9ce7-8d2110e6233b", // The ID of this integration.
+        region: "us-south", // The region your integration is hosted in.
+        serviceInstanceID: "3d60a4e3-b9f7-49e2-a500-b1fafc1b70ca", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+        document.head.appendChild(t);
+      });
+    </script>
+    <title>DocBot</title>
   </head>
   <body>
     <div id="root"'></div>

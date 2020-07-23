@@ -1,19 +1,19 @@
 .doc-bot-header{
     flex: 20;
     padding: 10px;
-    background-color: yellow;
+    background-color: #00A5E1;
     vertical-align: top;
 }
 
 .doc-bot-body{
     flex: 70;
     padding: 10px;
-    background-color: aqua;
+    background-color: #0082B1;
 }
 
 .doc-bot-footer{
     flex: 10;
     padding: 10px;
-    background-color: beige;
+    background-color: #00A5E1;
     vertical-align: bottom;
 }
